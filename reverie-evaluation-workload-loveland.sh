@@ -55,7 +55,7 @@ rdmaload=0.2
 rdmaburst=2000000
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 
 EXP=$1
 
@@ -66,7 +66,7 @@ for tcpload in 0.2 0.4 0.6;do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -89,7 +89,7 @@ rdmaburst=2000000
 tcpload=0.6
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for egresslossyFrac in 0.6 0.4 0.2;do
 	for alg in $DT $ABM;do
 		if [[ $alg != $REVERIE ]];then
@@ -97,7 +97,7 @@ for egresslossyFrac in 0.6 0.4 0.2;do
 		else
 			BUFFERMODEL="reverie"
 		fi		
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -122,7 +122,7 @@ rdmaburst=2000000
 tcpload=0.2
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 
 for BUFFER_PER_PORT_PER_GBPS in 9.6 7 5.12 3.44;do
 	for alg in ${BUFFER_ALGS[@]};do
@@ -131,7 +131,7 @@ for BUFFER_PER_PORT_PER_GBPS in 9.6 7 5.12 3.44;do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -152,13 +152,13 @@ rdmaload=0.2
 tcpload=0
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 alg=$REVERIE
 BUFFERMODEL="reverie"
 for gamma in 0.99 0.9 0.8;do
 	for rdmaburst in ${BURST_SIZES[@]};do
 
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -193,7 +193,7 @@ for tcpburst in ${BURST_SIZES[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done

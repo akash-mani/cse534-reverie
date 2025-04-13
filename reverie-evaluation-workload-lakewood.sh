@@ -56,7 +56,7 @@ rdmaburst=2000000
 tcpload=0
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for rdmaload in ${LOADS[@]};do
 	# tcpload=$(python3 -c "print('%.1f'%(0.8-$rdmaload))")
 	for alg in ${BUFFER_ALGS[@]};do
@@ -65,7 +65,7 @@ for rdmaload in ${LOADS[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -87,7 +87,7 @@ rdmaload=0.4
 tcpload=0
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for rdmaburst in ${BURST_SIZES[@]};do
 	if [[ $rdmaburst == 2000000 ]];then
 		continue;
@@ -98,7 +98,7 @@ for rdmaburst in ${BURST_SIZES[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -121,7 +121,7 @@ rdmaload=0.4
 tcpload=0
 tcpburst=0
 RDMACC=$INTCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for rdmaburst in ${BURST_SIZES[@]};do
 	if [[ $burst == 2000000 ]];then
 		continue;
@@ -133,7 +133,7 @@ for rdmaburst in ${BURST_SIZES[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done
@@ -158,7 +158,7 @@ RDMANUM=$NUM
 rdmaburst=2000000
 rdmaload=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 tcpburst=0
  # --rdmarequestSize=$rdmaburst
 for tcpload in ${LOADS[@]};do
@@ -170,7 +170,7 @@ for tcpload in ${LOADS[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023-optimized | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done

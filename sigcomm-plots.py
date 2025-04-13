@@ -14,12 +14,15 @@ import  random
 from matplotlib.colors import LogNorm, Normalize
 import pandas as pd
 import numpy as np
-import sys
+import os
 
 #%%
 dump="dump_sigcomm/"
 plots="plots_sigcomm/"
 
+
+if not os.path.exists("plots_sigcomm"):
+    os.makedirs("plots_sigcomm")
 
 LOSSLESS=0
 LOSSY=1
@@ -78,7 +81,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 rdmaburst="2000000"
 tcpburst="0"
 egresslossyFrac="0.8"
@@ -277,7 +280,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 tcpburst="0"
 tcpload="0.8"
 egresslossyFrac="0.8"
@@ -452,7 +455,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000"]
 
 rdmacc=str(INTCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 rdmaburst="0"
 tcpload="0"
 egresslossyFrac="0.8"
@@ -641,7 +644,7 @@ loads=["0.2","0.4","0.6","0.8"]
 loadsint=[0.2,0.4,0.6,0.8]
 
 rdmacc=str(INTCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 tcpload="0"
 egresslossyFrac="0.8"
 gamma="0.999"
@@ -853,7 +856,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 rdmaburst="2000000"
 tcpburst="0"
 egresslossyFrac="0.8"
@@ -986,7 +989,7 @@ fig4.savefig(plots+'pfc-fct999.pdf')
 #%%
 # #%%
 # rdmacc=str(DCQCNCC)
-# tcpcc=str(CUBIC)
+# tcpcc=str(DCTCP)
 # # tcpburst="2000000"
 # tcpload="0"
 # rdmaload="0.8"
@@ -1033,7 +1036,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(CUBIC)
+tcpcc=str(DCTCP)
 rdmaburst="2000000"
 rdmaload="0"
 tcpburst="0"

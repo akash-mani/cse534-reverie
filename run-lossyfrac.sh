@@ -60,7 +60,7 @@ rdmaburst=2000000
 tcpload=0.8
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for egresslossyFrac in ${LOSSYFRACS[@]};do
 	for alg in ${BUFFER_ALGS[@]};do
 		if [[ $alg != $REVERIE ]];then
@@ -68,7 +68,7 @@ for egresslossyFrac in ${LOSSYFRACS[@]};do
 		else
 			BUFFERMODEL="reverie"
 		fi
-		while [[ $(ps aux | grep reverie-evaluation-sigcomm2023 | wc -l) -gt $N_CORES ]];do
+		while [[ $(ps -eo pid,psr,pcpu,time,comm | grep reverie | wc -l) -gt $N_CORES ]];do
 			sleep 30;
 			echo "waiting for cores, $N_CORES running..."
 		done

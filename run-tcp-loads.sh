@@ -75,7 +75,7 @@ tcpload=0
 tcpburst=1500000
 rdmaburst=0
 RDMACC=$INTCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for rdmaload in ${LOADS[@]};do
 	# tcpload=$(python3 -c "print('%.1f'%(0.8-$rdmaload))")
 	for alg in ${BUFFER_ALGS[@]};do

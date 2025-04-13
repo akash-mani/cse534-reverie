@@ -77,7 +77,7 @@ rdmaload=0.8
 tcpload=0
 rdmaburst=0
 RDMACC=$INTCC
-TCPCC=$CUBIC
+TCPCC=$DCTCP
 for tcpburst in ${BURST_SIZES[@]};do
 	if [[ $tcpburst == 1500000 ]];then
 		continue;
