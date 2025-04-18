@@ -16,7 +16,7 @@
 
 source config.sh
 DIR=$(pwd)
-DUMP_DIR=$DIR/dump_sigcomm
+DUMP_DIR=$DIR/dumps
 RESULTS_DIR=$DIR/results_sigcomm
 
 if [ ! -d "$DUMP_DIR" ];then
@@ -61,7 +61,7 @@ START_TIME=1
 END_TIME=4
 FLOW_LAUNCH_END_TIME=3
 BUFFER_PER_PORT_PER_GBPS=5.12 # in KiloBytes per port per Gbps
-BUFFERSIZE=$(python3 -c "print(20*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
+BUFFERSIZE=$(python3 -c "print(10*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
 ALPHAFILE=$DIR/alphas
 
 EXP=$1
@@ -75,7 +75,7 @@ tcpload=0
 tcpburst=1500000
 rdmaburst=0
 RDMACC=$INTCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 for rdmaload in ${LOADS[@]};do
 	# tcpload=$(python3 -c "print('%.1f'%(0.8-$rdmaload))")
 	for alg in ${BUFFER_ALGS[@]};do

@@ -1,0 +1,23 @@
+config finished
+maxRtt=17280 maxBdp=54000 minRtt=8640
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 295280 ingressPool 564720 egressLosslessPool 860000 egressLossyPool 451776 sharedPool 564720
+total headroom: 295280 ingressPool 564720 egressLosslessPool 860000 egressLossyPool 451776 sharedPool 564720
+SERVER_COUNT 8 LEAF_COUNT 8 SPINE_COUNT 2 LINK_COUNT 1 RDMALOAD 0 TCPLOAD 0.4 oversubRatio 4
+Finished installation of applications from leaf-0
+Finished installation of applications from leaf-1
+Finished installation of applications from leaf-2
+Finished installation of applications from leaf-3
+Finished installation of applications from leaf-4
+Finished installation of applications from leaf-5
+Finished installation of applications from leaf-6
+Finished installation of applications from leaf-7
+apps finished
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859408 ingresspool 490900 threshold 0 ingress_bytes 0

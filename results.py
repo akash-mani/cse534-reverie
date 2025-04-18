@@ -17,7 +17,7 @@ import numpy as np
 import sys
 
 dump="dump_sigcomm/"
-# dump="data/dumps/1-baseline/"
+#dump="data/dumps/3-dctcp-smalltop/"
 plots="plots_sigcomm/"
 # plots="/home/vamsi/plots_sigcomm/"
 
@@ -34,7 +34,7 @@ DCQCNCC=1
 INTCC=3
 TIMELYCC=7
 PINTCC=10
-DCTCP=2
+CUBIC=2
 DCTCP=4
 
 # DUMP_DIR/evaluation-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma.fct
@@ -62,7 +62,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 # bursts=["500000", "1000000"]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
-buffer=2610000
+buffer=1280000
 
 plt.rcParams.update({'font.size': 18})
 
@@ -443,7 +443,7 @@ shortfctavg=list()
 print("gamma","shortfctavg","numpfc")
 for gamma in ["0.8","0.9","0.99","0.999","0.999999"]:
     fctfile = dump+"evaluation-"+alg+'-'+rdmacc+'-'+tcpcc+'-'+rdmaload+'-'+tcpload+'-'+rdmaburst+'-'+tcpburst+'-'+egresslossyFrac+'-'+gamma+'.fct'
-    
+    print(fctfile)
     fctDF = pd.read_csv(fctfile,delimiter=' ')
     shortfctDF = fctDF[(fctDF["incastflow"]==1)&(fctDF["priority"]==3)] #fctDF[(fctDF["flowsize"]<100000)&(fctDF["priority"]==3)]   
     shortfct = list(shortfctDF["slowdown"])

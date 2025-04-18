@@ -1,0 +1,23 @@
+config finished
+maxRtt=17280 maxBdp=54000 minRtt=8640
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 369100 ingressPool 2190900 egressLosslessPool 2560000 egressLossyPool 1752720 sharedPool 2190900
+total headroom: 295280 ingressPool 2264720 egressLosslessPool 2560000 egressLossyPool 1811776 sharedPool 2264720
+total headroom: 295280 ingressPool 2264720 egressLosslessPool 2560000 egressLossyPool 1811776 sharedPool 2264720
+SERVER_COUNT 8 LEAF_COUNT 8 SPINE_COUNT 2 LINK_COUNT 1 RDMALOAD 0 TCPLOAD 0.8 oversubRatio 4
+Finished installation of applications from leaf-0
+Finished installation of applications from leaf-1
+Finished installation of applications from leaf-2
+Finished installation of applications from leaf-3
+Finished installation of applications from leaf-4
+Finished installation of applications from leaf-5
+Finished installation of applications from leaf-6
+Finished installation of applications from leaf-7
+apps finished
+Command 'build/examples/Reverie/ns3.39-reverie-evaluation-sigcomm2023-optimized --bufferalgIngress=110 --bufferalgEgress=110 --rdmacc=1 --rdmaload=0 --rdmarequestSize=1500000 --rdmaqueryRequestRate=2 --tcpload=0.8 --tcpcc=2 --enableEcn=true --tcpqueryRequestRate=2 --tcprequestSize=0 --egressLossyShare=0.8 --bufferModel=sonic --gamma=0.999 --START_TIME=1 --END_TIME=4 --FLOW_LAUNCH_END_TIME=3 --buffersize=2560000.0 --fctOutFile=/home/akmani/personal/ns3-datacenter/simulator/ns-3.39/examples/Reverie/dump_sigcomm/evaluation-110-1-2-0-0.8-1500000-0-0.8-0.999.fct --torOutFile=/home/akmani/personal/ns3-datacenter/simulator/ns-3.39/examples/Reverie/dump_sigcomm/evaluation-110-1-2-0-0.8-1500000-0-0.8-0.999.tor --alphasFile=/home/akmani/personal/ns3-datacenter/simulator/ns-3.39/examples/Reverie/alphas --pfcOutFile=/home/akmani/personal/ns3-datacenter/simulator/ns-3.39/examples/Reverie/dump_sigcomm/evaluation-110-1-2-0-0.8-1500000-0-0.8-0.999.pfc' died with <Signals.SIGKILL: 9>.

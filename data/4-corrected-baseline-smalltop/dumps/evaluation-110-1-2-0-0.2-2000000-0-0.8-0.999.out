@@ -1,0 +1,52 @@
+config finished
+maxRtt=17280 maxBdp=54000 minRtt=8640
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 369100 ingressPool 910900 egressLosslessPool 1280000 egressLossyPool 728720 sharedPool 910900
+total headroom: 295280 ingressPool 984720 egressLosslessPool 1280000 egressLossyPool 787776 sharedPool 984720
+total headroom: 295280 ingressPool 984720 egressLosslessPool 1280000 egressLossyPool 787776 sharedPool 984720
+SERVER_COUNT 8 LEAF_COUNT 8 SPINE_COUNT 2 LINK_COUNT 1 RDMALOAD 0 TCPLOAD 0.2 oversubRatio 4
+Finished installation of applications from leaf-0
+Finished installation of applications from leaf-1
+Finished installation of applications from leaf-2
+Finished installation of applications from leaf-3
+Finished installation of applications from leaf-4
+Finished installation of applications from leaf-5
+Finished installation of applications from leaf-6
+Finished installation of applications from leaf-7
+apps finished
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55882 threshold 18055
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55882 threshold 18020
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55774 threshold 18056
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55774 threshold 18022
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55666 threshold 18058
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 55666 threshold 19943
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 54600 threshold 19943
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 54600 threshold 19924
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 54492 threshold 19926
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 54438 threshold 19927
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53372 threshold 19889
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53372 threshold 19908
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53318 threshold 19870
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53264 threshold 19891
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53156 threshold 19912
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 53156 threshold 19912
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 52090 threshold 19893
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 52090 threshold 19893
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 51982 threshold 19876
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 51982 threshold 19876
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 51874 threshold 19897
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 51874 threshold 19897
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50754 threshold 19860
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50754 threshold 19860
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50700 threshold 19880
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50700 threshold 19880
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50646 threshold 19862
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50592 threshold 19863
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 50538 threshold 19902
+dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 49472 threshold 19902

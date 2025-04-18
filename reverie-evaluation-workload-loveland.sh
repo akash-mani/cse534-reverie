@@ -1,6 +1,6 @@
 source config.sh
 DIR=$(pwd)
-DUMP_DIR=$DIR/dump_sigcomm
+DUMP_DIR=$DIR/dumps
 RESULTS_DIR=$DIR/results_sigcomm
 
 if [ ! -d "$DUMP_DIR" ];then
@@ -45,7 +45,7 @@ START_TIME=1
 END_TIME=3
 FLOW_LAUNCH_END_TIME=2
 BUFFER_PER_PORT_PER_GBPS=5.12 # in KiloBytes per port per Gbps
-BUFFERSIZE=$(python3 -c "print(20*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
+BUFFERSIZE=$(python3 -c "print(10*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
 ALPHAFILE=$DIR/alphas
 
 ###########################################################################
@@ -55,7 +55,7 @@ rdmaload=0.2
 rdmaburst=2000000
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 
 EXP=$1
 
@@ -89,7 +89,7 @@ rdmaburst=2000000
 tcpload=0.6
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 for egresslossyFrac in 0.6 0.4 0.2;do
 	for alg in $DT $ABM;do
 		if [[ $alg != $REVERIE ]];then
@@ -122,9 +122,10 @@ rdmaburst=2000000
 tcpload=0.2
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 
 for BUFFER_PER_PORT_PER_GBPS in 9.6 7 5.12 3.44;do
+	BUFFERSIZE=$(python3 -c "print(10*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
 	for alg in ${BUFFER_ALGS[@]};do
 		if [[ $alg != $REVERIE ]];then
 			BUFFERMODEL="sonic"
@@ -138,7 +139,7 @@ for BUFFER_PER_PORT_PER_GBPS in 9.6 7 5.12 3.44;do
 		FCTFILE=$DUMP_DIR/buffer-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma-$BUFFER_PER_PORT_PER_GBPS.fct
 		TORFILE=$DUMP_DIR/buffer-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma-$BUFFER_PER_PORT_PER_GBPS.tor
 		DUMPFILE=$DUMP_DIR/buffer-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma-$BUFFER_PER_PORT_PER_GBPS.out
-		PFCFILE=$DUMP_DIR/evaluation-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma.pfc
+		PFCFILE=$DUMP_DIR/buffer-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma-$BUFFER_PER_PORT_PER_GBPS.pfc
 		echo $FCTFILE
 		if [[ $EXP == 1 ]];then
 			(time ./waf --run "reverie-evaluation-sigcomm2023 --bufferalgIngress=$alg --bufferalgEgress=$alg --rdmacc=$RDMACC --rdmaload=$rdmaload --rdmarequestSize=$rdmaburst --rdmaqueryRequestRate=2 --tcpload=$tcpload --tcpcc=$TCPCC --enableEcn=true --tcpqueryRequestRate=1 --tcprequestSize=$tcpburst --egressLossyShare=$egresslossyFrac --bufferModel=$BUFFERMODEL --gamma=$gamma --START_TIME=$START_TIME --END_TIME=$END_TIME --FLOW_LAUNCH_END_TIME=$FLOW_LAUNCH_END_TIME --buffersize=$BUFFERSIZE --fctOutFile=$FCTFILE --torOutFile=$TORFILE --alphasFile=$ALPHAFILE --pfcOutFile=$PFCFILE" > $DUMPFILE 2> $DUMPFILE)&
@@ -152,7 +153,7 @@ rdmaload=0.2
 tcpload=0
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 alg=$REVERIE
 BUFFERMODEL="reverie"
 for gamma in 0.99 0.9 0.8;do

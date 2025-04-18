@@ -1,6 +1,6 @@
 source config.sh
 DIR=$(pwd)
-DUMP_DIR=$DIR/dump_sigcomm
+DUMP_DIR=$DIR/dumps
 RESULTS_DIR=$DIR/results_sigcomm
 
 if [ ! -d "$DUMP_DIR" ];then
@@ -45,7 +45,7 @@ START_TIME=1
 END_TIME=4
 FLOW_LAUNCH_END_TIME=3
 BUFFER_PER_PORT_PER_GBPS=5.12 # in KiloBytes per port per Gbps
-BUFFERSIZE=$(python3 -c "print(20*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
+BUFFERSIZE=$(python3 -c "print(10*25*1000*$BUFFER_PER_PORT_PER_GBPS)") # in Bytes
 ALPHAFILE=$DIR/alphas
 
 EXP=$1
@@ -60,7 +60,7 @@ tcpload=0
 rdmaburst=2000000
 tcpburst=0
 RDMACC=$DCQCNCC
-TCPCC=$DCTCP
+TCPCC=$CUBIC
 BUFFERMODEL="reverie"
 alg=$REVERIE
 for gamma in 0.4 0.8 0.9 0.99 0.999 0.999999;do
@@ -73,6 +73,11 @@ for gamma in 0.4 0.8 0.9 0.99 0.999 0.999999;do
 	DUMPFILE=$DUMP_DIR/evaluation-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma.out
 	PFCFILE=$DUMP_DIR/evaluation-$alg-$RDMACC-$TCPCC-$rdmaload-$tcpload-$rdmaburst-$tcpburst-$egresslossyFrac-$gamma.pfc
 	echo $FCTFILE
+	if [ -f "$FCTFILE" ]; then
+		echo "Skipping: $FCTFILE already exists"
+		NUM=$(( $NUM+1 ))
+		continue
+	fi
 	if [[ $EXP == 1 ]];then
 		(time ./waf --run "reverie-evaluation-sigcomm2023 --bufferalgIngress=$alg --bufferalgEgress=$alg --rdmacc=$RDMACC --rdmaload=$rdmaload --rdmarequestSize=$rdmaburst --rdmaqueryRequestRate=$RDMAREQRATE --tcpload=$tcpload --tcpcc=$TCPCC --enableEcn=true --tcpqueryRequestRate=$TCPREQRATE --tcprequestSize=$tcpburst --egressLossyShare=$egresslossyFrac --bufferModel=$BUFFERMODEL --gamma=$gamma --START_TIME=$START_TIME --END_TIME=$END_TIME --FLOW_LAUNCH_END_TIME=$FLOW_LAUNCH_END_TIME --buffersize=$BUFFERSIZE --fctOutFile=$FCTFILE --torOutFile=$TORFILE --alphasFile=$ALPHAFILE --pfcOutFile=$PFCFILE" > $DUMPFILE 2> $DUMPFILE)&
 		sleep 5

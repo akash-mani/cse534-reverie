@@ -1,0 +1,150 @@
+config finished
+maxRtt=17280 maxBdp=54000 minRtt=8640
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 369100 ingressPool 490900 egressLosslessPool 860000 egressLossyPool 392720 sharedPool 490900
+total headroom: 295280 ingressPool 564720 egressLosslessPool 860000 egressLossyPool 451776 sharedPool 564720
+total headroom: 295280 ingressPool 564720 egressLosslessPool 860000 egressLossyPool 451776 sharedPool 564720
+SERVER_COUNT 8 LEAF_COUNT 8 SPINE_COUNT 2 LINK_COUNT 1 RDMALOAD 0.2 TCPLOAD 0 oversubRatio 4
+Finished installation of applications from leaf-0
+Finished installation of applications from leaf-1
+Finished installation of applications from leaf-2
+Finished installation of applications from leaf-3
+Finished installation of applications from leaf-4
+Finished installation of applications from leaf-5
+Finished installation of applications from leaf-6
+Finished installation of applications from leaf-7
+apps finished
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 1048 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 1048 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 2096 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 2096 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 2096 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 2096 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 3144 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 3144 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 3144 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 3144 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 4192 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 4192 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 4192 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 4192 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 0
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 5240 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 6288 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 6288 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16558
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 6288 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 6288 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 7336 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 7336 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 7336 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 7336 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 8384 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 8384 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 8384 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 8384 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 16453
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 9432 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 9432 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 9432 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 9432 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 10480 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 11528 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 11528 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 11528 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 11528 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 12576 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 12576 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 12576 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 13624 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 13624 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 13624 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 31156
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 14672 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 14672 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 14672 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 15720 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 15720 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 15720 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44568
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 16768 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 17816 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 56355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 17816 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 17816 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 18864 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 56355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 18864 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 18864 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 44284
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 56355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 56355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 56355
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 19912 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 20960 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66858
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 20960 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 20960 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 22008 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 22008 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 55994
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 23056 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 23056 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 24104 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 25152 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 25152 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 66429
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 26200 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 27248 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 27248 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 75715
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 28296 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 28296 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 29344 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 30392 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 30392 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 30392 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 30392 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 30392 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 83968
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 31440 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 32488 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 32488 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 32488 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 32488 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 32488 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 91291
+reverie: dropping lossless packet at ingress admission headroom 0 xoff 18455 pktSize 1048 xoffTotalUsed 33536 totalUsed 859360 ingresspool 490900 threshold 0 ingress_bytes 97777
