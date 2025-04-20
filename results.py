@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 import sys
 
-dump="dump_sigcomm/"
+dump="dumps/"
 #dump="data/dumps/3-dctcp-smalltop/"
 plots="plots_sigcomm/"
 # plots="/home/vamsi/plots_sigcomm/"
@@ -74,7 +74,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(DCTCP)
+tcpcc=str(CUBIC)
 rdmaburst="2000000"
 tcpburst="0"
 egresslossyFrac="0.8"
@@ -165,7 +165,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(DCTCP)
+tcpcc=str(CUBIC)
 tcpburst="0"
 tcpload="0.8"
 egresslossyFrac="0.8"
@@ -244,7 +244,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000"]
 
 rdmacc=str(INTCC)
-tcpcc=str(DCTCP)
+tcpcc=str(CUBIC)
 rdmaburst="0"
 tcpload="0"
 egresslossyFrac="0.8"
@@ -327,7 +327,7 @@ loads=["0.2","0.4","0.6","0.8"]
 loadsint=[0.2,0.4,0.6,0.8]
 
 rdmacc=str(INTCC)
-tcpcc=str(DCTCP)
+tcpcc=str(CUBIC)
 tcpload="0"
 egresslossyFrac="0.8"
 gamma="0.999"
@@ -419,7 +419,7 @@ loadsint=[0.2,0.4,0.6,0.8]
 bursts=["500000", "1000000","1500000", "2000000", "2500000"]
 
 rdmacc=str(DCQCNCC)
-tcpcc=str(DCTCP)
+tcpcc=str(CUBIC)
 rdmaburst="2000000"
 tcpburst="0"
 egresslossyFrac="0.8"

@@ -1,6 +1,6 @@
 source config.sh
 DIR=$(pwd)
-DUMP_DIR=$DIR/dump
+DUMP_DIR=$DIR/dumps
 RESULTS_DIR=$DIR/results_sigcomm
 
 if [ ! -d "$DUMP_DIR" ];then
