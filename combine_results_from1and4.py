@@ -19,8 +19,8 @@ csv_files = [
 
 # Directories
 base_dirs = {
-    "TCPCubic": os.path.join(os.getcwd(), "data/1-baseline/results"),
-    "DCTCP": os.path.join(os.getcwd(), "data/4-corrected-baseline-smalltop/results")
+    "FullTopology": os.path.join(os.getcwd(), "data/1-baseline/results"),
+    "SmallTopology": os.path.join(os.getcwd(), "data/4-corrected-baseline-smalltop/results")
 }
 
 # Output directory for combined files

@@ -16,8 +16,8 @@ color_map = {
 
 # Line styles by CC Algo
 line_style_map = {
-    "TCPCubic": "-",   # Solid line
-    "DCTCP": ":"       # Dotted line
+    "FullTopology": "-",   # Solid line
+    "SmallTopology": ":"       # Dotted line
 }
 
 # Column configs per experiment
