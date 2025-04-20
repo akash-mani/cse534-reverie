@@ -77,7 +77,8 @@ for filename, config in column_config.items():
                 linestyle=linestyle,
                 marker='o',
                 linewidth=1.5,
-                markersize=4
+                markersize=4,
+                alpha=0.3
             )
 
         ax.set_title(f"{metric} vs {x_col}", fontsize=10)
