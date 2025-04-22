@@ -1,0 +1,13 @@
+Gamma Value,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,RDMA Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes),CC Algo
+0.4,Reverie,20.413,2808660,15.047,36.469,0,17308.0,BaselineSmallTop
+0.8,Reverie,20.32,2419012,15.015,36.893,0,16020.0,BaselineSmallTop
+0.9,Reverie,20.383,2082396,15.217,37.31,0,14972.0,BaselineSmallTop
+0.99,Reverie,20.013,962336,15.846,42.352,0,12396.0,BaselineSmallTop
+0.999,Reverie,19.973,358738,19.411,59.878,0,9627.8,BaselineSmallTop
+0.999999,Reverie,20.26,1366360,40.904,99.999,0,0.0,BaselineSmallTop
+0.4,Reverie,27.414,863213,18.669,39.421,0,13684.0,OverSubSmallTop
+0.8,Reverie,27.537,737113,18.991,40.238,0,13624.0,OverSubSmallTop
+0.9,Reverie,27.72,636097,19.381,41.292,0,13264.0,OverSubSmallTop
+0.99,Reverie,28.349,269845,22.46,51.452,0,10360.0,OverSubSmallTop
+0.999,Reverie,26.846,55661,25.072,67.953,0,7396.0,OverSubSmallTop
+0.999999,Reverie,23.184,1001609,104.43,100.0,0,13624.0,OverSubSmallTop

@@ -1,0 +1,19 @@
+TCP Load,Algorithm,RDMA Background FCT Slowdown Avg,TCP Background FCT Slowdown Avg,PFC Pauses,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes),CC Algo
+0.2,ABM,3.6151,2.2829,982840,17.977,17.073,19164,BaselineFullTopology
+0.4,ABM,6.51,3.2961,2507780,21.823,19.904,34584,BaselineFullTopology
+0.6,ABM,10.731,6.1814,4561836,24.285,21.945,46288,BaselineFullTopology
+0.2,ABM,3.7409,2.3478,526637,17.035,20.071,13624,OversubFullTopology
+0.4,ABM,6.4495,3.7041,1289901,22.393,23.36,24104,OversubFullTopology
+0.6,ABM,10.188,7.1383,2444325,25.79,25.5,35632,OversubFullTopology
+0.2,DT,3.6756,2.7521,67228,40.24,33.562,1048,BaselineFullTopology
+0.4,DT,6.7202,4.6457,262228,44.793,39.933,13684,BaselineFullTopology
+0.6,DT,10.225,7.9644,842780,45.563,42.648,27516,BaselineFullTopology
+0.2,DT,4.2306,2.7805,67961,43.53,29.232,0,OversubFullTopology
+0.4,DT,7.6733,4.8948,176261,49.677,33.895,13624,OversubFullTopology
+0.6,DT,12.12,8.9107,477393,52.938,37.447,28871,OversubFullTopology
+0.2,Reverie,3.6914,2.4734,33004,45.288,26.006,0,BaselineFullTopology
+0.4,Reverie,6.6142,3.8118,89152,56.117,29.69,5240,BaselineFullTopology
+0.6,Reverie,10.101,6.8166,171080,58.638,32.896,12276,BaselineFullTopology
+0.2,Reverie,4.1893,2.5435,20833,48.92,26.775,0,OversubFullTopology
+0.4,Reverie,7.3829,4.1914,54109,60.003,30.866,1048,OversubFullTopology
+0.6,Reverie,11.749,8.0692,92725,64.337,34.728,11528,OversubFullTopology

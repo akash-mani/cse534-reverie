@@ -4,7 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Base directory for CSVs
-base_dir = os.path.join(os.getcwd(), "data/6-baseline-oversub/results")
+base_dir = os.path.join(os.getcwd(), "data/7-oversub-fulltop/results")
+# base_dir = os.path.join(os.getcwd(), "data/6-baseline-oversub/results")
 # base_dir = os.path.join(os.getcwd(), "data/4-corrected-baseline-smalltop/results")
 # base_dir = os.path.join(os.getcwd(), "data/5-corrected-dctcp-smalltop/results")
 

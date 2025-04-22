@@ -1,0 +1,25 @@
+RDMA Load,Algorithm,TCP Incast FCT Slowdown Avg,PFC Pauses,RDMA Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes),CC Algo
+0.2,ABM,19.449,0,3.6969,0.34063,1.8322,0,BaselineSmallTop
+0.4,ABM,19.57,28,4.1331,1.8914,0.74953,0,BaselineSmallTop
+0.6,ABM,19.774,380,4.7421,3.1291,1.9988,0,BaselineSmallTop
+0.8,ABM,20.719,326140,16.547,13.986,1.9714,1599,BaselineSmallTop
+0.2,ABM,21.386,1,3.5646,0.092031,0.0,0,OverSubSmallTop
+0.4,ABM,21.234,29,4.2318,1.0219,0.0,0,OverSubSmallTop
+0.6,ABM,21.682,281,4.3814,2.5547,0.0,0,OverSubSmallTop
+0.8,ABM,23.072,52177,14.887,8.7631,0.24984,0,OverSubSmallTop
+0.2,DT,14.114,0,3.6492,0.34063,0.91609,0,BaselineSmallTop
+0.4,DT,11.456,0,4.1324,1.8941,0.16656,0,BaselineSmallTop
+0.6,DT,9.0068,0,4.7233,3.1386,0.54391,0,BaselineSmallTop
+0.8,DT,9.1594,0,14.518,14.249,0.33313,0,BaselineSmallTop
+0.2,DT,17.534,1,3.7734,0.092031,0.0,0,OverSubSmallTop
+0.4,DT,15.611,1,4.237,1.0219,0.0,0,OverSubSmallTop
+0.6,DT,12.529,1,4.3224,2.5457,0.0,0,OverSubSmallTop
+0.8,DT,9.9944,1,14.164,8.8361,0.0,0,OverSubSmallTop
+0.2,Reverie,16.349,0,3.7531,0.34063,4.1641,0,BaselineSmallTop
+0.4,Reverie,15.38,0,4.2266,1.8987,1.4993,0,BaselineSmallTop
+0.6,Reverie,15.093,0,4.7695,3.1248,3.6644,0,BaselineSmallTop
+0.8,Reverie,14.666,184,14.504,14.224,2.7483,0,BaselineSmallTop
+0.2,Reverie,18.304,1,3.5662,0.092031,0.0,0,OverSubSmallTop
+0.4,Reverie,18.196,13,4.2406,1.0219,0.0,0,OverSubSmallTop
+0.6,Reverie,17.686,1,4.2741,2.5288,0.0,0,OverSubSmallTop
+0.8,Reverie,17.635,65,14.146,8.8319,0.0,0,OverSubSmallTop
