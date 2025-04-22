@@ -1,7 +1,0 @@
-Gamma Value,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,RDMA Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
-0.4,Reverie,27.414,863213,18.669,39.421,0,13684
-0.8,Reverie,27.537,737113,18.991,40.238,0,13624
-0.9,Reverie,27.72,636097,19.381,41.292,0,13264
-0.99,Reverie,28.349,269845,22.46,51.452,0,10360
-0.999,Reverie,26.846,55661,25.072,67.953,0,7396
-0.999999,Reverie,23.184,1001609,104.43,100,0,13624
