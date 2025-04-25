@@ -1,0 +1,37 @@
+config finished
+maxRtt=17280 maxBdp=54000 minRtt=8640
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 627470 ingressPool 1932530 egressLosslessPool 2560000 egressLossyPool 1159518 sharedPool 1932530
+total headroom: 590560 ingressPool 1969440 egressLosslessPool 2560000 egressLossyPool 1181664 sharedPool 1969440
+SERVER_COUNT 16 LEAF_COUNT 16 SPINE_COUNT 1 LINK_COUNT 1 RDMALOAD 0.2 TCPLOAD 0.6 oversubRatio 16
+Finished installation of applications from leaf-0
+Finished installation of applications from leaf-1
+Finished installation of applications from leaf-2
+Finished installation of applications from leaf-3
+Finished installation of applications from leaf-4
+Finished installation of applications from leaf-5
+Finished installation of applications from leaf-6
+Finished installation of applications from leaf-7
+Finished installation of applications from leaf-8
+Finished installation of applications from leaf-9
+Finished installation of applications from leaf-10
+Finished installation of applications from leaf-11
+Finished installation of applications from leaf-12
+Finished installation of applications from leaf-13
+Finished installation of applications from leaf-14
+Finished installation of applications from leaf-15
+apps finished
