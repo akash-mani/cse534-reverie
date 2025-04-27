@@ -1,25 +1,25 @@
 config finished
 maxRtt=17280 maxBdp=54000 minRtt=8640
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 738200 ingressPool 1821800 egressLosslessPool 2560000 egressLossyPool 1457440 sharedPool 1821800
-total headroom: 590560 ingressPool 1969440 egressLosslessPool 2560000 egressLossyPool 1575552 sharedPool 1969440
-total headroom: 590560 ingressPool 1969440 egressLosslessPool 2560000 egressLossyPool 1575552 sharedPool 1969440
-total headroom: 590560 ingressPool 1969440 egressLosslessPool 2560000 egressLossyPool 1575552 sharedPool 1969440
-total headroom: 590560 ingressPool 1969440 egressLosslessPool 2560000 egressLossyPool 1575552 sharedPool 1969440
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 738200 ingressPool 981800 egressLosslessPool 1720000 egressLossyPool 785440 sharedPool 981800
+total headroom: 590560 ingressPool 1129440 egressLosslessPool 1720000 egressLossyPool 903552 sharedPool 1129440
+total headroom: 590560 ingressPool 1129440 egressLosslessPool 1720000 egressLossyPool 903552 sharedPool 1129440
+total headroom: 590560 ingressPool 1129440 egressLosslessPool 1720000 egressLossyPool 903552 sharedPool 1129440
+total headroom: 590560 ingressPool 1129440 egressLosslessPool 1720000 egressLossyPool 903552 sharedPool 1129440
 SERVER_COUNT 16 LEAF_COUNT 16 SPINE_COUNT 4 LINK_COUNT 1 RDMALOAD 0.2 TCPLOAD 0.2 oversubRatio 4
 Finished installation of applications from leaf-0
 Finished installation of applications from leaf-1

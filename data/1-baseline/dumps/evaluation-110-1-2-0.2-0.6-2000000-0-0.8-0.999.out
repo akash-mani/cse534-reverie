@@ -38,7 +38,3 @@ Finished installation of applications from leaf-13
 Finished installation of applications from leaf-14
 Finished installation of applications from leaf-15
 apps finished
-dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 56136 threshold 55613
-dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 56082 threshold 55664
-dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 56028 threshold 55659
-dropping lossless packet at egress admission port 9 qIndex 1 egress_bytes 56028 threshold 55658
