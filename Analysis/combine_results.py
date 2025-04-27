@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 
+# add comparisons here and in make_plots.py
+
 comparisons = [
     ("1-baseline", "7-oversub-fulltop"),
     ("1-baseline", "8-oversub-fulltop-16"),
@@ -62,6 +64,7 @@ for comp in comparisons:
                         df.rename(columns={matching_cols[0]: 'FCT Slowdown Avg'}, inplace=True)
                     else:
                         print("No column containing 'FCT Slowdown Avg' was found.")
+
 
                     df['Source'] = label
                     output_rows.append(df)
