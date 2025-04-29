@@ -1,0 +1,12 @@
+# Stop tracking former LFS files in data/1-baseline/dumps
+data/1-baseline/dumps/evaluation-110-1-2-0.8-0-2000000-0-0.8-0.999.pfc
+data/1-baseline/dumps/evaluation-111-1-2-0.8-0-2000000-0-0.8-0.4.pfc
+data/1-baseline/dumps/evaluation-111-1-2-0.8-0-2000000-0-0.8-0.8.pfc
+data/1-baseline/dumps/evaluation-111-1-2-0.8-0-2000000-0-0.8-0.9.pfc
+
+# Exclude specific simulation results from 9-fulltop-dctcp
+data/9-fulltop-dctcp/dumps/evaluation-110-1-4-0.8-0-2000000-0-0.8-0.999.pfc
+data/9-fulltop-dctcp/dumps/evaluation-111-1-4-0.8-0-2000000-0-0.8-0.4.pfc
+data/9-fulltop-dctcp/dumps/evaluation-111-1-4-0.8-0-2000000-0-0.8-0.8.pfc
+data/9-fulltop-dctcp/dumps/evaluation-111-1-4-0.8-0-2000000-0-0.8-0.9.pfc
+
