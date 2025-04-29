@@ -12,6 +12,7 @@ comparison_dirs = {
     "6-Oversub-Smalltop_7-Oversub-Fulltop": ("Smaller Topology (8:1 Oversubscription)", "Larger Topology (8:1 Oversubscription)"),
     "1-Baseline_4-Corrected-Baseline-Smalltop": ("Full Topology(Baseline)", "Smaller Topology(Baseline)"),
     "7-Oversub-Fulltop_8-Oversub-Fulltop-16": ("Full Topology (8:1 Oversubscription)", "Full Topology (16:1 Oversubscription)"),
+    "1-Baseline_9-Fulltop-Dctcp": ("Full Topology (Baseline)", "Full Topology (DCTCP)"),
 }
 
 column_config = {

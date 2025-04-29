@@ -11,6 +11,7 @@ comparisons = [
     ("6-oversub-smalltop", "7-oversub-fulltop"),
     ("7-oversub-fulltop", "8-oversub-fulltop-16"),
     ("1-baseline", "4-corrected-baseline-smalltop"),
+    ("1-baseline", "9-fulltop-dctcp")
 ]
 
 experiment_files = [
