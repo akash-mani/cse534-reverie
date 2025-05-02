@@ -7,12 +7,12 @@ import re
 comparison_dirs = {
     "1-Baseline_7-Oversub-Fulltop": ("4:1 Oversubscription", "8:1 Oversubscription"),
     "1-Baseline_8-Oversub-Fulltop-16": ("Full Topology: 4:1 Oversubscription", "Full Topology: 16:1 Oversubscription"),
-    "4-Corrected-Baseline-Smalltop_5-Corrected-Dctcp-Smalltop": ("Smaller Topology: TCP Cubic", "Smaller Topology: DCTCP"),
-    "4-Corrected-Baseline-Smalltop_6-Oversub-Smalltop": ("Smaller Topology: 4:1 Oversubscription", "Smaller Topology: 8:1 Oversubscription"),
-    "6-Oversub-Smalltop_7-Oversub-Fulltop": ("Smaller Topology (8:1 Oversubscription)", "Larger Topology (8:1 Oversubscription)"),
-    "1-Baseline_4-Corrected-Baseline-Smalltop": ("Full Topology(Baseline)", "Smaller Topology(Baseline)"),
+    # "4-Corrected-Baseline-Smalltop_5-Corrected-Dctcp-Smalltop": ("Smaller Topology: TCP Cubic", "Smaller Topology: DCTCP"),
+    # "4-Corrected-Baseline-Smalltop_6-Oversub-Smalltop": ("Smaller Topology: 4:1 Oversubscription", "Smaller Topology: 8:1 Oversubscription"),
+    # "6-Oversub-Smalltop_7-Oversub-Fulltop": ("Smaller Topology (8:1 Oversubscription)", "Larger Topology (8:1 Oversubscription)"),
+    # "1-Baseline_4-Corrected-Baseline-Smalltop": ("Full Topology(Baseline)", "Smaller Topology(Baseline)"),
     "7-Oversub-Fulltop_8-Oversub-Fulltop-16": ("Full Topology (8:1 Oversubscription)", "Full Topology (16:1 Oversubscription)"),
-    "1-Baseline_9-Fulltop-Dctcp": ("Full Topology (Baseline)", "Full Topology (DCTCP)"),
+    # "1-Baseline_9-Fulltop-Dctcp": ("Full Topology (Baseline)", "Full Topology (DCTCP)"),
 }
 
 column_config = {
@@ -55,7 +55,8 @@ for comparison_dir, titles in comparison_dirs.items():
         metrics = [
             col for col in df.columns
             if col not in [X_Var, algo_col, source_col, "CC Algo"] and pd.api.types.is_numeric_dtype(df[col])
-        ][:3]
+        ]
+        # [:3]
 
         if not metrics:
             print(f"No numeric metrics found in {path}")
@@ -66,7 +67,7 @@ for comparison_dir, titles in comparison_dirs.items():
             print(f"Expected exactly 2 sources, found: {sources}")
             continue
 
-        fig, axes = plt.subplots(3, 2, figsize=(6, 8), dpi=300)
+        fig, axes = plt.subplots(6, 2, figsize=(6, 16), dpi=300)
 
         for row_idx, metric in enumerate(metrics):
             # Find y-axis limits across both sources
