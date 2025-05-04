@@ -1,4 +1,4 @@
-Egress Lossy Fraction,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,TCP Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
+Egress Lossy Fraction,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,99th Percentile FCT (TCP),Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
 0.2,DT,13.741,0,55.133,14.328,22.236,0
 0.2,ABM,10.443,4248,7.5892,12.281,16.49,0
 0.2,Reverie,14.073,0,18.725,19.404,82.232,0

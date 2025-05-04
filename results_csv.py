@@ -329,7 +329,7 @@ def experiment_tcp_load_on_rdma_burst(args, results_dir_path):
     """Exp 1: Fixed RDMA burst (2M), vary TCP background load. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 1: TCP Load Impact on Fixed RDMA Burst...")
     headers = ["TCP Load", "Algorithm", "RDMA Incast FCT Slowdown Avg", "PFC Pauses",
-               "TCP Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (TCP)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {
@@ -365,7 +365,7 @@ def experiment_rdma_burst_with_tcp_bg(args, results_dir_path):
     """Exp 2: Fixed TCP background load (0.8), vary RDMA burst size. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 2: RDMA Burst Size Impact with TCP Background...")
     headers = ["RDMA Burst Size", "Algorithm", "RDMA Incast FCT Slowdown Avg", "PFC Pauses",
-               "TCP Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (TCP)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {
@@ -399,7 +399,7 @@ def experiment_rdma_load_on_tcp_burst(args, results_dir_path):
     """Exp 3: Fixed TCP burst (1.5M), vary RDMA background load. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 3: RDMA Load Impact on Fixed TCP Burst...")
     headers = ["RDMA Load", "Algorithm", "TCP Incast FCT Slowdown Avg", "PFC Pauses",
-               "RDMA Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (RDMA)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {
@@ -431,7 +431,7 @@ def experiment_tcp_burst_with_rdma_bg(args, results_dir_path):
     """Exp 4: Fixed RDMA background load (0.8), vary TCP burst size. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 4: TCP Burst Size Impact with RDMA Background...")
     headers = ["TCP Burst Size", "Algorithm", "TCP Incast FCT Slowdown Avg", "PFC Pauses",
-               "RDMA Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (RDMA)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {
@@ -463,7 +463,7 @@ def experiment_gamma_values(args, results_dir_path):
     """Exp 5: Fixed RDMA burst (2M) & RDMA load (0.8), vary gamma for Reverie. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 5: Gamma Parameter Impact experiment...")
     headers = ["Gamma Value", "Algorithm", "RDMA Incast FCT Slowdown Avg", "PFC Pauses",
-               "RDMA Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (RDMA)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {
@@ -495,7 +495,7 @@ def experiment_egress_lossy_fraction(args, results_dir_path):
     """Exp 6: Fixed RDMA burst (2M) & TCP load (0.8), vary egress lossy fraction. Uses args.bufferSizeBytes, args.tcp_cc_code."""
     print("\nRunning Exp 6: Egress Lossy Fraction Impact experiment...")
     headers = ["Egress Lossy Fraction", "Algorithm", "RDMA Incast FCT Slowdown Avg", "PFC Pauses",
-               "TCP Short FCT Slowdown 99%", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
+               "99th Percentile FCT (TCP)", "Lossless Buffer 99% (%)", "Lossy Buffer 99% (%)",
                "Headroom Buffer 99% (Bytes)"]
     data = []
     params = {

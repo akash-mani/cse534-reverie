@@ -1,4 +1,4 @@
-RDMA Burst Size,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,TCP Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
+RDMA Burst Size,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,99th Percentile FCT (TCP),Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
 500000,DT,13.181,125,72.146,1.4144,30.176,0
 500000,ABM,13.18,117,16.731,1.3734,30.189,0
 500000,Reverie,13.191,1,20.654,1.4144,38.684,0

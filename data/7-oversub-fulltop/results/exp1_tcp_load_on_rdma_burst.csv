@@ -1,4 +1,4 @@
-TCP Load,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,TCP Short FCT Slowdown 99%,Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
+TCP Load,Algorithm,RDMA Incast FCT Slowdown Avg,PFC Pauses,99th Percentile FCT (TCP),Lossless Buffer 99% (%),Lossy Buffer 99% (%),Headroom Buffer 99% (Bytes)
 0.2,DT,12.653,31225,14.912,26.896,27.483,0
 0.2,ABM,22.181,57785,11.037,8.9244,22.777,0
 0.2,Reverie,12.133,6449,13.462,27.142,28.482,0
